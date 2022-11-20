@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /**to avoid width or height changing were adding padding or border*/
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #F1D3B3;
+}
+
+.container{
+    width: 450px;
+    border-right: 7px;
+    background: #fff;
+}
+
+.container h2{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 18px 25px;
+    border-bottom: 1px solid #ccc;
+}
+
+.container .content{
+    margin: 25px 20px 35px;
+
+}
+
+.content .word{
+    font-size: 33px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 24px;
+    margin-right: -24px;
+    text-transform: uppercase;
+}
+
+.content .details{
+    margin: 25px 0 20px;
+}
+
+.details p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.details p b{
+    font-weight: 500;
+}
+
+.container input{
+    width: 100%;
+    height: 60px;
+    outline: none;
+    padding: 0 16px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    font-size: 18px;
+}
+
+.content .buttons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.buttons button{
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 0;
+    font-size: 17px;
+    border-radius: 5px;
+    width: calc(100% / 2 - 8px);
+}
+
+.buttons .refresh-word{
+    background: #6c757d;
+}
+
+.buttons .check-word{
+    background: #8B7E74;
+}
